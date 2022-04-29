@@ -1,6 +1,15 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/font.css);
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__cover/page__cover.css);
+
+@import url(../blocks/lead/lead.css);
+
+@import url(../blocks/photo-grid/photo-grid.css);
 
 
+@import url(../blocks/cover/cover.css);
 
 div {
   outline: 1px solid cornflowerblue;
