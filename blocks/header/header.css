@@ -5,33 +5,26 @@
     display: flex;
 }
 
-.header__logo {
-    max-width: 176px;
-    min-height: 52px;
-    margin: 0 931px 0 0;
-    align-items: center;
+
+@media screen and (max-width: 1279px){
+    .header {
+        max-width: 928px;
+    }
 }
 
-.header__links {
-    display: flex;
-    list-style: none;
-    gap: 0 18px;
-    text-decoration: none;
-    padding: 0;
-    align-items: center;
-    margin: 0;
+@media screen and (max-width: 1023px){
+    .header {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .header {
+        max-width: 288px;
+        min-height: 42px;
+    }
 }
 
 
-.header__lang-link {
-    font-family: 'Inter', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 117%;
-    text-align: right;
-    text-decoration-line: underline;
-    color: #FFFFFF;
-    padding: 0;
-    margin: 0;
-}
+
+
