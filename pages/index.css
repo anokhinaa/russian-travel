@@ -2,7 +2,9 @@
 @import url(../vendor/font.css);
 
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/__cover/page__cover.css);
+@import url(../blocks/center/center.css);
+
+@import url(../blocks/header/header.css);
 
 @import url(../blocks/lead/lead.css);
 
