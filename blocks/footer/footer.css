@@ -8,26 +8,25 @@
 @media screen and (max-width: 1279px){
     .footer {
         max-width: 928px;
-    }
-    .footer__link {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 112%;
-        color: #FFFFFF;
-        padding: 0;
-        margin: 0;
+
     }
 
 }
 
 @media screen and (max-width: 1023px){
-
+    .footer {
+        max-width: 720px;
+        margin: 88px 24px 24px 24px;
+    }
 }
 
-@media screen and (max-width: 767px){
-
+@media screen and (max-width: 767px) {
+    .footer {
+        max-width: 186px;
+        min-height: 310px;
+        margin: 64px 118px 24px 16px;
+        flex-direction: column;
+    }
 }
 
 
