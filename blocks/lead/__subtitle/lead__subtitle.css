@@ -8,7 +8,32 @@
     color: #FFFFFF;
     max-width: 640px;
     min-height: 72px;
-    margin: 32px auto 0 auto;
+    margin: 32px 172px 0 172px;
     padding: 0;
+    position: relative;
+
 }
 
+@media screen and (max-width: 1279px){
+    .lead__subtitle {
+        margin: 32px 144px 0 144px;
+    }
+
+}
+
+@media screen and (max-width: 1023px){
+    .lead__subtitle {
+        margin: 32px 64px 0 64px;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 125%;
+        max-width: 288px;
+        min-height: 40px;
+        margin: 16px 16px 0 16px;
+    }
+}
