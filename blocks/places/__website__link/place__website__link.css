@@ -8,6 +8,12 @@
     color: #FFFFFF;
     max-width: 456px;
     min-height: 22px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.place__website__link:hover {
+    opacity: 0.8;
+
 }
 
 @media screen and (max-width: 1279px){
