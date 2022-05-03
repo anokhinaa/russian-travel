@@ -2,13 +2,17 @@
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    /*font-size: 30px;*/
+    font-size: calc(30/1280 * 100vw);
     line-height: 120%;
     text-align: center;
     color: #FFFFFF;
-    max-width: 640px;
-    min-height: 72px;
-    margin: 32px 172px 0 172px;
+    max-width: calc(640/1280 * 100vw);
+    min-height: calc(72/1280 * 100vw);
+    /*max-width: 640px;*/
+    /*min-height: 72px;*/
+    /*margin: 32px auto 0 auto;*/
+    margin: calc(32/1280 * 100vw) auto 0 auto;
     padding: 0;
     position: relative;
 

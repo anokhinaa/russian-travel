@@ -2,11 +2,14 @@
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: calc(18/1280 * 100vw);;
     line-height: 163%;
     color: #FFFFFF;
-    max-width: 484px;
-    min-height: 145px;
+    /*max-width: 484px;*/
+    /*min-height: 145px;*/
+    max-width: calc(484/1280 * 100vw);
+    min-height: calc(145/1280 * 100vw);
     align-self: start;
     justify-self: stretch;
 }

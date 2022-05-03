@@ -2,8 +2,10 @@
     /*max-width: 984px;*/
     /*min-height: 660px;*/
     display: grid;
-    grid-template-columns: 460px 1fr;
-    gap: 48px 40px;
+    /*grid-template-columns: 460px 1fr;*/
+    grid-template-columns: calc(460/1280 * 100vw) 1fr;
+    /*gap: 48px 40px;*/
+    gap: calc(48/1280 * 100vw) calc(40/1280 * 100vw);
     /*grid-template-rows: repeat(2,1fr);*/
 }
 

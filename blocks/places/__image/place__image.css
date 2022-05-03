@@ -1,6 +1,8 @@
 .place__image {
-    max-width: 460px;
-    min-height: 460px;
+    /*max-width: 460px;*/
+    /*min-height: 460px;*/
+    max-width: calc(460/1280 * 100vw);
+    min-height: calc(460/1280 * 100vw);
     margin: 0;
     object-fit: cover;
     object-position: top;

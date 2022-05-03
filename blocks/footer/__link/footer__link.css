@@ -2,7 +2,8 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    /*font-size: 16px;*/
+    font-size: calc(16/1280 * 100vw);
     line-height: 112%;
     color: #FFFFFF;
     padding: 0;

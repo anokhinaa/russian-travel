@@ -1,13 +1,16 @@
 .cover__subtitle {
     font-family: 'Inter';
     font-weight: 400;
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: calc(18/1280 * 100vw);
     line-height: 122%;
     text-align: center;
     color: #FFFFFF;
-    margin: 32px 412px 245px 412px;
-    max-width: 360px;
-    min-height: 66px;
+    /*margin: 32px 412px 245px 412px;*/
+    margin: calc(32/1280 * 100vw) auto calc(245/1280 * 100vw) auto;
+    /*max-width: 360px;*/
+    /*min-height: 66px;*/
+    max-width: calc(360/1280 * 100vw);
     z-index: 1;
     position: relative;
 }

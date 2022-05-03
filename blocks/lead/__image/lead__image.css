@@ -1,13 +1,12 @@
 .lead__image {
-    max-width: 984px;
-    min-height: 615px;
-    width: 100%;
-    height: 100%;
-    margin: 64px 0 0 0;
+    /*max-width: 984px;*/
+    /*min-height: 615px;*/
+    max-width: calc(984/1280 * 100vw);
+    /*margin: 64px 0 0 0;*/
+    margin: calc(64/1280 * 100vw) 0 0 0;
     position: relative;
     object-fit: cover;
     object-position: top;
-
 }
 
 @media screen and (max-width: 1279px){

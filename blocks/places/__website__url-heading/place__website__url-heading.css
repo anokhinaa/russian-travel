@@ -2,12 +2,15 @@
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    /*font-size: 12px;*/
+    font-size: calc(12/1280 * 100vw);
     line-height: 100%;
     letter-spacing: 2px;
     color: #AAAAAA;
-    max-width: 456px;
-    min-height: 12px;
+    /*max-width: 456px;*/
+    /*min-height: 12px;*/
+    max-width: calc(456/1280 * 100vw);
+    min-height: calc(12/1280 * 100vw);
     padding: 0;
 }
 

@@ -2,11 +2,14 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
-    font-size: 54px;
+    /*font-size: 54px;*/
+    font-size: calc(54/1280 * 100vw);
     line-height: 107%;
     color: #FFFFFF;
-    min-width: 690px;
-    height: 58px;
+    /*min-width: 690px;*/
+    /*height: 58px;*/
+    max-width: calc(690/1280 * 100vw);
+    min-height: calc(58/1280 * 100vw);
     margin: 0;
     padding: 0;
 }

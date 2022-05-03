@@ -1,12 +1,15 @@
 .cover__title {
     font-family: 'Inter', serif;
     font-weight: 900;
-    font-size: 72px;
+    /*font-size: 72px;*/
+    font-size: calc(72/1280 * 100vw);
     line-height: 106%;
     color: #FFFFFF;
     text-align: center;
-    margin: 245px 312px 0 312px;
-    max-width: 560px;
+    /*margin: 245px 312px 0 312px;*/
+    margin: calc(245/1280 * 100vw) auto 0 auto;
+    /*max-width: 560px;*/
+    max-width: calc(560/1280 * 100vw);
     z-index: 1;
     position: relative;
 }

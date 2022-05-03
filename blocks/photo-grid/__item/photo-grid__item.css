@@ -1,6 +1,8 @@
 .photo-grid__item {
-    max-width: 284px;
-    min-height: 213px;
+    /*max-width: 284px;*/
+    /*min-height: 213px;*/
+    max-width: calc(284/1280 * 100vw);
+    min-height: calc(213/1280 * 100vw);
     position: relative;
     object-fit: cover;
     object-position: top;

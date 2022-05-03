@@ -1,7 +1,10 @@
 .header {
-    max-width: 1184px;
-    min-height: 52px;
-    margin: 28px 48px 0 48px;
+    /*max-width: 1184px;*/
+    max-width: calc(1184/1280 * 100vw);
+    /*min-height: 52px;*/
+    min-height: calc(52 / 1280 * 100vw);
+    /*margin: 28px 48px 0 48px;*/
+    margin: calc(28/1280 * 100vw) calc(48/1280 * 100vw) 0 calc(48/1280 * 100vw);
     display: flex;
 }
 
