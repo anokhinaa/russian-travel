@@ -15,34 +15,43 @@
 
 @media screen and (max-width: 1279px){
     .photo-grid {
-        max-width: 928px;
-        min-height: 942px;
-        margin: 92px 48px 0 48px;
+        max-width: 1184px;
+        min-height: 671px;
+        margin: 96px 0 0 0;
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 1183px) {
+    .photo-grid {
+        max-width: calc(928/1024 * 100vw);
+        min-height: calc(942/1024 * 100vw);
+        margin: calc(92/1024 * 100vw) calc(48/1024 * 100vw) 0 calc(48/1024 * 100vw);
         grid-template-columns: repeat(3, auto);
-        grid-template-rows: repeat(3, auto);
-        gap: 14px;
+        grid-template-rows: repeat(4, auto);
+        gap: calc(14/1024 * 100vw);
     }
 }
 
 @media screen and (max-width: 1023px){
     .photo-grid {
-        max-width: 720px;
-        min-height: 1664px;
-        margin: 88px 24px 0 24px;
+        max-width: calc(720/768 * 100vw);
+        min-height: calc(1664/768 * 100vw);
+        margin: calc(88/768 * 100vw) calc(24/768 * 100vw) 0 calc(24/768 * 100vw);
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(2, auto);
-        gap: 16px;
+        gap: calc(16/768 * 100vw);
     }
 }
 
 @media screen and (max-width: 767px){
     .photo-grid {
-        max-width: 288px;
-        min-height: 2724px;
-        margin: 64px 16px 0 16px;
+        max-width: calc(288/320 * 100vw);
+        min-height: calc(2724/320 * 100vw);
+        margin: calc(64/320 * 100vw) calc(16/320 * 100vw) 0 calc(16/320 * 100vw);
         grid-template-columns: repeat(1, auto);
         grid-template-rows: repeat(1, auto);
-        gap: 12px;
+        gap: calc(12/320 * 100vw);
     }
 
 }

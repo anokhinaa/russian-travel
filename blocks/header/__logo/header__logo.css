@@ -8,20 +8,20 @@
 
 @media screen and (max-width: 1279px){
     .header__logo {
-        margin: 0 675px 0 0;
+        margin: 0 calc(675/1024 * 100vw) 0 0;
     }
 }
 
 @media screen and (max-width: 1023px){
     .header__logo {
-        margin: 0 467px 0 0;
+        margin: 0 calc(467/768 * 100vw) 0 0;
     }
 }
 
 @media screen and (max-width: 767px){
     .header__logo {
-        max-width: 142px;
-        min-height: 42px;
-        margin: 0 84px 0 0;
+        max-width: calc(142/320 * 100vw);
+        min-height: calc(42/320 * 100vw);
+        margin: 0 calc(84/320 * 100vw) 0 0;
     }
 }

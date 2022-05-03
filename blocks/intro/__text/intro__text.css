@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 767px){
     .intro__text {
-        min-width: 288px;
+        min-width: calc(288/320 * 100vw);
 
     }
 }

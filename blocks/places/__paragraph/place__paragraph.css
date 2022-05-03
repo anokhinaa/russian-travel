@@ -20,13 +20,13 @@
 
 @media screen and (max-width: 1023px){
     .place__paragraph {
-        font-size: 16px;
-        max-width: 352px;
+        font-size: calc(16/768 * 100vw);
+        max-width: calc(352/768 * 100vw);
     }
 }
 
 @media screen and (max-width: 767px){
     .place__paragraph {
-        font-size: 16px;
+        font-size: calc(16/320 * 100vw);
     }
 }

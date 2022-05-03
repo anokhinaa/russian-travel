@@ -11,22 +11,22 @@
 
 @media screen and (max-width: 1279px){
     .header {
-        max-width: 928px;
+        max-width: calc(928/1024 * 100vw);
     }
 }
 
 @media screen and (max-width: 1023px){
     .header {
-        max-width: 720px;
-        margin: 28px 24px 0 24px;
+        max-width: calc(720/768 * 100vw);
+        margin: calc(28/768 * 100vw) calc(24/768 * 100vw) 0 calc(24/768 * 100vw);
     }
 }
 
 @media screen and (max-width: 767px){
     .header {
-        max-width: 288px;
-        min-height: 42px;
-        margin: 16px 16px 0 16px;
+        max-width: calc(288/320 * 100vw);
+        min-height: calc(42/320 * 100vw);
+        margin: calc(16/320 * 100vw) calc(16/320 * 100vw) 0 calc(16/320 * 100vw);
     }
 }
 

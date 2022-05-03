@@ -16,21 +16,24 @@
 
 @media screen and (max-width: 1279px){
     .cover__title {
-        margin: 195px 232px 0 232px;
+        /*margin: 195px 232px 0 232px;*/
+        margin: calc(195/1024 * 100vw) auto 0 auto;
     }
 }
 
 @media screen and (max-width: 1023px){
     .cover__title {
-        margin: 115px 104px 0 104px;
+        /*margin: 115px 104px 0 104px;*/
+        margin: calc(115/768 * 100vw) auto 0 auto;
     }
 }
 
 @media screen and (max-width: 767px){
     .cover__title {
-        font-size: 32px;
+        font-size: calc(32/320 * 100vw);
         line-height: 109%;
-        margin: 33px 16px 0 16px;
-        max-width: 288px;
+        /*margin: 33px 16px 0 16px;*/
+        margin: calc(33/320 * 100vw) auto 0 auto;
+        max-width: calc(288/320 * 100vw);
     }
 }

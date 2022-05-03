@@ -14,12 +14,12 @@
 
 @media screen and (max-width: 1023px) {
     .place__list {
-        gap: 72px;
+        gap: calc(72/768 * 100vw);
     }
 }
 
 @media screen and (max-width: 767px) {
     .place__list {
-        gap: 50px;
+        gap: calc(50/320 * 100vw);
     }
 }

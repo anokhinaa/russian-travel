@@ -11,26 +11,25 @@
 
 @media screen and (max-width: 1279px){
     .lead {
-        max-width: 928px;
-        min-height: 962px;
-        margin: 48px 48px 0 48px;
+        max-width: calc(928/1024 * 100vw);
+        min-height: calc(962/1024 * 100vw);
+        margin: calc(48/1024 * 100vw) calc(48/1024 * 100vw) 0 calc(48/1024 * 100vw);
     }
 
 }
 
 @media screen and (max-width: 1023px){
     .lead {
-        max-width: 768px;
-        min-height: 862px;
-        margin: 48px 0 0 0;
+        max-width: 100%;
+        min-height: calc(862/768 * 100vw);
+        margin: calc(48/768 * 100vw) 0 0 0;
     }
 }
 
 @media screen and (max-width: 767px){
     .lead {
-        max-width: 320px;
-        min-height: 406px;
-        margin: 48px 0 0 0;
+        min-height: calc(406/320 * 100vw);
+        margin: calc(48/320 * 100vw) 0 0 0;
 
     }
 }
