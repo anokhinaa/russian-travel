@@ -1,4 +1,4 @@
-.place__website__link {
+.place__link {
     font-family: 'Inter',serif;
     font-style: normal;
     font-weight: 400;
@@ -14,12 +14,12 @@
     transition: opacity 0.3s ease-in-out;
 }
 
-.place__website__link:hover {
+.place__link:hover {
     opacity: 0.8;
 }
 
 @media screen and (max-width: 1279px){
-    .place__website__link {
+    .place__link {
         font-size: 18px;
         line-height: 100%;
     }
