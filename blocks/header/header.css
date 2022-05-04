@@ -15,7 +15,7 @@
     }
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 1023px) {
     .header {
         max-width: calc(720/768 * 100vw);
         margin: calc(28/768 * 100vw) calc(24/768 * 100vw) 0 calc(24/768 * 100vw);

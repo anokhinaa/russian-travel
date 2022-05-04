@@ -7,8 +7,8 @@
     line-height: 122%;
     text-decoration-line: underline;
     color: #FFFFFF;
-    max-width: calc(456/1280 * 100vw);
-    min-height: calc(22/1280 * 100vw);
+    /*max-width: calc(456/1280 * 100vw);*/
+    /*min-height: calc(22/1280 * 100vw);*/
     /*max-width: 456px;*/
     /*min-height: 22px;*/
     transition: opacity 0.3s ease-in-out;
@@ -16,19 +16,16 @@
 
 .place__website__link:hover {
     opacity: 0.8;
-
 }
 
 @media screen and (max-width: 1279px){
     .place__website__link {
-        font-size: calc(12/1024 * 100vw);
+        font-size: 18px;
         line-height: 100%;
-        letter-spacing: 2px;
     }
 }
 
 @media screen and (max-width: 1023px){
-
 
 }
 

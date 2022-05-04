@@ -1,5 +1,5 @@
 .intro {
-    /*min-width: 690px;*/
+    /*max-width: 690px;*/
     /*min-height: 429px;*/
     max-width: calc(690/1280 * 100vw);
     /*min-height: calc(429/1280 * 100vw);*/
@@ -8,6 +8,7 @@
 
 @media screen and (max-width: 1279px){
     .intro {
+        max-width: 690px;
         /*margin: 92px 286px 0 48px;*/
         margin: calc(92/1024 * 100vw) calc(286/1024 * 100vw) 0 calc(48/1024 * 100vw);
     }
@@ -16,13 +17,13 @@
 @media screen and (max-width: 1023px){
     .intro {
         margin: calc(88/768 * 100vw) calc(24/768 * 100vw) 0 calc(24/768 * 100vw);
-        min-width: calc(720/768 * 100vw);
+        max-width: calc(720/768 * 100vw);
     }
 }
 
 @media screen and (max-width: 767px){
     .intro {
         margin: calc(64/320 * 100vw) calc(16/320 * 100vw) 0 calc(16/320 * 100vw);
-        min-width: calc(288/320 * 100vw);
+        max-width: calc(288/320 * 100vw);
     }
 }

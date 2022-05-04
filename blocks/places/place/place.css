@@ -11,6 +11,13 @@
 
 @media screen and (max-width: 1279px) {
     .place {
+        gap: 48px 40px;
+        grid-template-columns: 460px 1fr;
+    }
+}
+
+@media screen and (max-width: 1183px) {
+    .place {
         gap: calc(48/1024 * 100vw) calc(32/1024 * 100vw);
         grid-template-columns: calc(440/1024 * 100vw) 1fr;
     }

@@ -18,20 +18,20 @@
 
 }
 
-@media screen and (max-width: 1279px){
+@media screen and (max-width: 1279px) {
     .lead__subtitle {
-        /*margin: 32px 144px 0 144px;*/
-        margin: calc(32/1024 * 100vw) calc(144/1024 * 100vw) 0 calc(144/1024 * 100vw)
+        font-size: 30px;
+        max-width: 640px;
+        min-height: 72px;
+        margin: 32px auto 0 auto;
+        /*margin: calc(32/1024 * 100vw) calc(144/1024 * 100vw) 0 calc(144/1024 * 100vw)*/
     }
-
 }
 
 @media screen and (max-width: 1023px){
     .lead__subtitle {
-        /*margin: 32px 64px 0 64px;*/
-        margin: calc(32/768 * 100vw) calc(64/768 * 100vw) 0 calc(64/768 * 100vw);
+        /*margin: calc(32/768 * 100vw) calc(64/768 * 100vw) 0 calc(64/768 * 100vw);*/
     }
-
 }
 
 @media screen and (max-width: 767px){

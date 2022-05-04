@@ -8,14 +8,18 @@
     text-align: right;
     color: #FFFFFF;
     margin: 0 0 0 auto;
-    /*min-width: 186px;*/
+    /*max-width: 186px;*/
     /*min-height: 16px;*/
     max-width: calc(186/1280 * 100vw);
     padding: 0;
 }
 
 @media screen and (max-width: 1279px){
-
+    .footer__copyright {
+        font-size: 14px;
+        max-width: 186px;
+        min-height: 16px;
+    }
 }
 
 @media screen and (max-width: 1023px){
@@ -24,9 +28,11 @@
 
 @media screen and (max-width: 767px) {
     .footer__copyright {
+        font-size: calc(14/320 * 100vw);
         line-height: 100%;
         margin: calc(48/320 * 100vw) 0 0 0;
         text-align: left;
+        max-width: 100%;
     }
 }
 

@@ -9,14 +9,14 @@
     color: #AAAAAA;
     /*max-width: 456px;*/
     /*min-height: 12px;*/
-    max-width: calc(456/1280 * 100vw);
-    min-height: calc(12/1280 * 100vw);
+    /*max-width: calc(456/1280 * 100vw);*/
+    /*min-height: calc(12/1280 * 100vw);*/
     padding: 0;
 }
 
 @media screen and (max-width: 1279px){
     .place__website__url-heading {
-        font-size: calc(18/1024 * 100vw);
+        font-size: 12px;
         line-height: 122%;
     }
 }

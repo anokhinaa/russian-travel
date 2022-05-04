@@ -9,10 +9,8 @@
     margin: 0 0 0 auto;
 }
 
-
-@media screen and (max-width: 767px){
-    .header__lang-link {
-        font-size: calc(18/320 * 100vw);
-        line-height: 111%;
+@media screen and (max-width: 1279px) {
+    .header__links {
+        gap: 0 18px;
     }
 }

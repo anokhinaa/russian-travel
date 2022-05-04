@@ -15,16 +15,22 @@
 }
 
 @media screen and (max-width: 1279px){
-
+    .intro__title {
+        font-size: 54px;
+        max-width: 690px;
+        min-height: 58px;
+    }
 }
 
 @media screen and (max-width: 1023px){
-
+    .intro__title {
+        max-width: calc(720/768 * 100vw);
+    }
 }
 
 @media screen and (max-width: 767px){
     .intro__title {
-        min-width: calc(288/320 * 100vw);
+        max-width: calc(288/320 * 100vw);
         font-size: calc(32/320 * 100vw);
         line-height: 109%;
     }
