@@ -2,7 +2,6 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    /*gap: 18px;*/
     gap: calc(18/1280 * 100vw);
     margin: 0;
     padding: 0;

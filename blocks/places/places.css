@@ -1,9 +1,5 @@
 .places {
-    /*max-width: 984px;*/
-    /*min-height: 3392px;*/
     max-width: calc(984/1280 * 100vw);
-    /*min-height: calc(3392/1280 * 100vw);*/
-    /*margin: 92px auto 0 auto;*/
     margin: calc(92/1280 * 100vw) auto 0 auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -28,7 +24,6 @@
 @media screen and (max-width: 1023px) {
     .places {
         max-width: calc(720/768 * 100vw);
-        /*min-height: calc(2808/768 * 100vw);*/
         gap: calc(73/768 * 100vw);
         margin: calc(88/768 * 100vw) calc(24/768 * 100vw) 0 calc(24/768 * 100vw);
     }
@@ -37,8 +32,7 @@
 @media screen and (max-width: 767px){
     .places {
         max-width: 100%;
-        /*min-height: calc(2808/320 * 100vw);*/
-        margin: calc(88/320 * 100vw) 0 0 0;
+        margin: calc(64/320 * 100vw) 0 0 0;
         gap: calc(50/320 * 100vw);
     }
 }

@@ -1,8 +1,5 @@
 .lead__image {
-    /*max-width: 984px;*/
-    /*min-height: 615px;*/
     max-width: calc(984/1280 * 100vw);
-    /*margin: 64px 0 0 0;*/
     margin: calc(64/1280 * 100vw) 0 0 0;
     position: relative;
     object-fit: cover;
@@ -13,7 +10,7 @@
     .lead__image {
         max-width: calc(928/1024 * 100vw);
         min-height: calc(580/1024 * 100vw);
-        margin: calc(56/1024 * 100vw) 0 0 0;
+        margin: 56px 0 0 0;
     }
 }
 
@@ -21,7 +18,6 @@
     .lead__image {
         max-width: 100%;
         min-height: calc(480/768 * 100vw);
-        margin: calc(56/320 * 100vw)  0 0 0;
     }
 
 }

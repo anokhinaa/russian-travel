@@ -1,14 +1,12 @@
 .footer__link {
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
-    /*font-size: 16px;*/
     font-size: calc(16/1280 * 100vw);
     line-height: 112%;
     color: #FFFFFF;
     padding: 0;
     margin: 0;
-    /*flex-basis: 460px;*/
 }
 
 @media screen and (max-width: 1279px){

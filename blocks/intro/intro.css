@@ -1,15 +1,11 @@
 .intro {
-    /*max-width: 690px;*/
-    /*min-height: 429px;*/
     max-width: calc(690/1280 * 100vw);
-    /*min-height: calc(429/1280 * 100vw);*/
     margin: calc(92/1280 * 100vw) auto 0 calc(148/1280 * 100vw);
 }
 
 @media screen and (max-width: 1279px){
     .intro {
         max-width: 690px;
-        /*margin: 92px 286px 0 48px;*/
         margin: calc(92/1024 * 100vw) calc(286/1024 * 100vw) 0 calc(48/1024 * 100vw);
     }
 }

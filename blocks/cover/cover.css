@@ -1,7 +1,5 @@
 .cover {
-    /*max-width: 1184px;*/
     max-width: calc(1184/1280 * 100vw);
-    /*margin: 92px auto 0 auto;*/
     margin: calc(92/1280 * 100vw) auto 0 auto;
 }
 
@@ -14,14 +12,12 @@
 
 @media screen and (max-width: 1023px){
     .cover {
-        /*max-width: 768px;*/
         margin: calc(90/768 * 100vw) 0 0 0;
     }
 }
 
 @media screen and (max-width: 767px){
     .cover {
-        /*max-width: 320px;*/
         margin: calc(66/320 * 100vw) 0 0 0;
     }
 }

@@ -1,9 +1,5 @@
 .lead {
-    /*max-width: 984px;*/
-    /*min-height: 1005px;*/
     max-width: calc(984/1280 * 100vw);
-    /*min-height: calc(1005/1280 * 100vw);*/
-    /*margin: 56px 148px 0 148px;*/
     margin: calc(56/1280 * 100vw) auto 0 auto;
     display: flex;
     flex-direction: column;
@@ -12,7 +8,6 @@
 @media screen and (max-width: 1279px){
     .lead {
         max-width: calc(928/1024 * 100vw);
-        /*min-height: calc(962/1024 * 100vw);*/
         margin: calc(48/1024 * 100vw) calc(48/1024 * 100vw) 0 calc(48/1024 * 100vw);
     }
 }
@@ -20,14 +15,12 @@
 @media screen and (max-width: 1023px){
     .lead {
         max-width: 100%;
-        /*min-height: calc(862/768 * 100vw);*/
         margin: calc(48/768 * 100vw) 0 0 0;
     }
 }
 
 @media screen and (max-width: 767px){
     .lead {
-        /*min-height: calc(406/320 * 100vw);*/
         margin: calc(48/320 * 100vw) 0 0 0;
     }
 }

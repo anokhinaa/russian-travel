@@ -1,10 +1,8 @@
 .intro__list {
     list-style: none;
-    /*margin: 33px 0 0 0;*/
     margin: calc(33/1280 * 100vw) 0 0 0;
     padding: 0;
     max-width: calc(690/1280 * 100vw);
-    min-height: calc(90/1280 * 100vw);
 }
 
 @media screen and (max-width: 1279px) {
@@ -15,8 +13,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-    .intro__list {
-    }
+
 }
 
 @media screen and (max-width: 767px) {

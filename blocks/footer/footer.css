@@ -1,24 +1,18 @@
 .footer {
-    /*max-width: 1184px;*/
-    /*min-height: 18px;*/
     max-width: calc(1184/1280 * 100vw);
     min-height: calc(18/1280 * 100vw);
-    /*margin: 92px 48px 24px 48px;*/
     margin: calc(92/1280 * 100vw) calc(48/1280 * 100vw) calc(24/1280 * 100vw) calc(48/1280 * 100vw);
     display: flex;
 }
 
 @media screen and (max-width: 1279px){
     .footer {
-        /*max-width: 928px;*/
         max-width: calc(928/1024 * 100vw);
     }
 }
 
 @media screen and (max-width: 1023px){
     .footer {
-        /*max-width: 720px;*/
-        /*margin: 88px 24px 24px 24px;*/
         max-width: calc(720/768 * 100vw);
         margin: calc(88/768 * 100vw) calc(24/768 * 100vw) calc(24/768 * 100vw) calc(24/768 * 100vw);
     }
@@ -26,9 +20,6 @@
 
 @media screen and (max-width: 767px) {
     .footer {
-        /*max-width: 186px;*/
-        /*min-height: 310px;*/
-        /*margin: 64px 118px 24px 16px;*/
         max-width: calc(186/320 * 100vw);
         min-height: calc(310/320 * 100vw);
         margin: calc(64/320 * 100vw) calc(118/320 * 100vw) calc(24/320 * 100vw) calc(16/320 * 100vw);

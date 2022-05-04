@@ -1,17 +1,12 @@
 .lead__subtitle {
-    font-family: 'Inter', serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
-    /*font-size: 30px;*/
     font-size: calc(30/1280 * 100vw);
     line-height: 120%;
     text-align: center;
     color: #FFFFFF;
     max-width: calc(640/1280 * 100vw);
-    min-height: calc(72/1280 * 100vw);
-    /*max-width: 640px;*/
-    /*min-height: 72px;*/
-    /*margin: 32px auto 0 auto;*/
     margin: calc(32/1280 * 100vw) auto 0 auto;
     padding: 0;
     position: relative;
@@ -22,15 +17,12 @@
     .lead__subtitle {
         font-size: 30px;
         max-width: 640px;
-        min-height: 72px;
         margin: 32px auto 0 auto;
-        /*margin: calc(32/1024 * 100vw) calc(144/1024 * 100vw) 0 calc(144/1024 * 100vw)*/
     }
 }
 
 @media screen and (max-width: 1023px){
     .lead__subtitle {
-        /*margin: calc(32/768 * 100vw) calc(64/768 * 100vw) 0 calc(64/768 * 100vw);*/
     }
 }
 
@@ -39,7 +31,6 @@
         font-size: calc(16/320 * 100vw);
         line-height: 125%;
         max-width: calc(288/320 * 100vw);
-        min-height: calc(40/320 * 100vw);
         margin: calc(16/320 * 100vw) calc(16/320 * 100vw) 0 calc(16/320 * 100vw);
     }
 }

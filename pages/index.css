@@ -49,6 +49,6 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
 
-/*div, section, p, img, h1, h3, nav{*/
-/*  outline: 1px solid cornflowerblue;*/
-/*}*/
+div, section, p, img, h1, h3, nav{
+  outline: 1px solid cornflowerblue;
+}

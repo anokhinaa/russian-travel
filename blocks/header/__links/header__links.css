@@ -1,7 +1,6 @@
 .header__links {
     display: flex;
     list-style: none;
-    /*gap: 0 18px;*/
     gap: 0 calc(18/1280 * 100vw);
     text-decoration: none;
     padding: 0;

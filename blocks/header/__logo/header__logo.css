@@ -1,5 +1,4 @@
 .header__logo {
-    /*max-width: 176px;*/
     max-width: calc(176 / 1280 * 100vw);
     min-height: calc(52 / 1280 * 100vw);
     margin: 0 0 0 0;
@@ -10,20 +9,16 @@
     .header__logo {
         max-width: 176px;
         min-height: 52px;
-        margin: 0 calc(675/1024 * 100vw) 0 0;
     }
 }
 
 @media screen and (max-width: 1023px){
-    .header__logo {
-        margin: 0 calc(467/768 * 100vw) 0 0;
-    }
+
 }
 
 @media screen and (max-width: 767px){
     .header__logo {
         max-width: calc(142/320 * 100vw);
         min-height: calc(42/320 * 100vw);
-        margin: 0 calc(84/320 * 100vw) 0 0;
     }
 }

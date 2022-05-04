@@ -1,15 +1,11 @@
 .intro__text {
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
-    /*font-size: 16px;*/
     font-size: calc(16/1280 * 100vw);
     line-height: 163%;
     color: #FFFFFF;
     max-width: calc(690/1280 * 100vw);
-    min-height: calc(208/1280 * 100vw);
-    /*max-width: 690px;*/
-    /*margin: 40px 0 0 0;*/
     margin: calc(40/1280 * 100vw) 0 0 0;
 }
 
