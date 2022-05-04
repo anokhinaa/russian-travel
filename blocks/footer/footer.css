@@ -1,6 +1,5 @@
 .footer {
     max-width: calc(1184/1280 * 100vw);
-    min-height: calc(18/1280 * 100vw);
     margin: calc(92/1280 * 100vw) calc(48/1280 * 100vw) calc(24/1280 * 100vw) calc(48/1280 * 100vw);
     display: flex;
 }
@@ -21,7 +20,6 @@
 @media screen and (max-width: 767px) {
     .footer {
         max-width: calc(186/320 * 100vw);
-        min-height: calc(310/320 * 100vw);
         margin: calc(64/320 * 100vw) calc(118/320 * 100vw) calc(24/320 * 100vw) calc(16/320 * 100vw);
         flex-direction: column;
     }

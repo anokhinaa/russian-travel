@@ -24,9 +24,7 @@
 
 @media screen and (max-width: 767px){
     .lead__image {
-        max-width: 100%;
         min-height: calc(200/320 * 100vw);
         margin: calc(40/320 * 100vw) 0 0 0;
-        position: relative;
     }
 }

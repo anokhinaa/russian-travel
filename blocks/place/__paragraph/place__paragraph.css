@@ -7,21 +7,27 @@
     color: #FFFFFF;
     align-self: start;
     justify-self: stretch;
+    margin: calc(26/1280 * 100vw) 0 0 0;
+}
+
+.place__paragraph:first-child {
+    margin-top: 0;
 }
 
 @media screen and (max-width: 1279px) {
     .place__paragraph {
         font-size: 18px;
+        margin-top: 27px;
     }
 }
 
 @media screen and (max-width: 1023px){
     .place__paragraph {
         font-size: 16px;
+        margin-top: 25px;
     }
 }
 
 @media screen and (max-width: 767px){
-    .place__paragraph {
-    }
+
 }
