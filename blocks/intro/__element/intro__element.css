@@ -1,0 +1,16 @@
+.intro__element {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    /*font-size: 12px;*/
+    font-size: calc(12/1280 * 100vw);
+    line-height: 150%;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+@media screen and (max-width: 1279px) {
+    .intro__element {
+        font-size: 12px;
+    }
+}
