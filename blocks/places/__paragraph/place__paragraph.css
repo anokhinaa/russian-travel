@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 400;
     /*font-size: 18px;*/
-    font-size: calc(18/1280 * 100vw);;
+    font-size: calc(18/1280 * 100vw);
     line-height: 163%;
     color: #FFFFFF;
     /*max-width: 484px;*/
